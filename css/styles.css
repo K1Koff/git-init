@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: rgba(38, 0, 77, 0.6);
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(38, 0, 77, 0.7),
+      rgba(102, 0, 204, 0.5)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  z-index: -1;
+}
+
+.formstart,
+.formmid,
+.formend {
+  color: white;
+}
+.formstart {
+padding-right: 12px ;
+}
+.container {
+  margin: 40px auto 0 auto;
+  max-width: 720px;
+  max-height: fit-content;
+}
+
+.h1header {
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: 400;
+  color: white;
+}
+.pheader {
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1.1rem;
+  color: white;
+}
+.formp {
+  font-size: 20px;
+  font-weight: 300;
+}
+.form {
+  max-width: 720px;
+  margin-top: 50px;
+  border-radius: 4px;
+  padding: 50px 30px 60px 30px;
+  /* min-height: fit-content; */
+  background-color: rgba(13, 0, 26, 0.6);
+}
+.inputtext {
+  min-width: 100%;
+  margin: 5px 0px 20px 0px;
+  border-radius: 5px;
+  min-height: 35px;
+  font-weight: 500;
+  color: black;
+}
+.textarea,
+.inputtext:focus-visible {
+  outline: 2px solid rgb(82, 0, 189);
+}
+
+.option12 {
+  width: 100%;
+  min-width: 218px;
+  height: 35px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.option12:focus {
+  outline: 2px solid rgb(82, 0, 189);
+}
+
+.formmid1 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.radio,
+.checkbox {
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  margin-right: 10px;
+  align-items: baseline;
+}
+.formend {
+  margin-top: 10px;
+}
+.formend1 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 29px;
+}
+.ultralastform {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textarea {
+  margin-top: 10px;
+  width: 100%;
+  min-width: 219px;
+  min-height: 100px;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(89, 101, 211);
+  border-radius: 4px;
+  margin-top: 20px;
+}
